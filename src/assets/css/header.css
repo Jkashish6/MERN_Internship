@@ -1,0 +1,8 @@
+.headercss{
+    background-color: black;
+    height:auto;
+    width:100%;
+    position: sticky;
+    display:flex;
+    color:white;
+}
