@@ -19,6 +19,9 @@ import { ErrorComponent } from './components/ErrorComponent'
 import { Watch } from './components/Watch'
 import { Sports } from './components/Sports'
 import { PlaySports } from './components/PlaySports'
+import { UseStateDemo1 } from './components/UseStateDemo1'
+import { UseStateDemo2 } from './components/UseStateDemo2'
+import { UseStateDemo3 } from './components/UseStateDemo3'
 
 function App() {
   
@@ -36,6 +39,9 @@ function App() {
         <Route path="/*" element = {<ErrorComponent/>}></Route>
         <Route path="/sports" element={<Sports/>}></Route>
         <Route path='/play/:name' element={<PlaySports/>}></Route>
+        <Route path='/usestate1' element={<UseStateDemo1 />}></Route>
+        <Route path='/usestate2' element={<UseStateDemo2/>}></Route>
+        <Route path='/usestate3' element={<UseStateDemo3 />}></Route>
       </Routes>
       </div>
     
